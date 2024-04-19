@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+.container {
+    display: flex;
+}
+
+.left-side {
+
+    background: #FBFDF6;
+    width: 40%;
+}
+
+.wattsapp {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.wattsapp h1 {
+    padding: 0 0 0 40px;
+}
+
+.logos-section {
+    display: flex;
+    align-items: center;
+    margin: 0px 15px 0 0;
+}
+
+.logo {
+    margin: 0 15px;
+}
+
+.search-icons input {
+    width: 458px;
+    height: 52px;
+    border-radius: 33px;
+    background: #E1ECE1;
+    margin: 20px 0px 30px 40px;
+    padding: 10px;
+}
+
+.search-icons {
+    position: relative;
+}
+
+.search-icons button {
+    width: 42px;
+    height: 42px;
+    font-size: 26px;
+    background: none;
+    position: absolute;
+    top: 24px;
+    right: 56px;
+    border: none;
+}
+
+.user-menu {
+    display: flex;
+    align-items: center;
+    margin: 10px 0 20px 40px;
+}
+
+.data {
+    display: flex;
+    justify-content: space-between;
+    width: 415px;
+}
+
+.data2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile img {
+    margin: 0 10px 0 0;
+}
+
+.data h3 {
+    font-size: 17px;
+    font-weight: 500; 
+    font-size: 22px;
+}
+.pink{
+    padding: 5px;
+  background-color: pink;
+  border-radius: 50%;
+}
+.gray{
+    padding: 5px;
+    background-color: gray;
+    border-radius: 50%;
+}
+.greenish{
+    padding: 5px;
+    background-color: rgb(105, 245, 140);
+    border-radius: 50%;
+}
+.pinkish{
+    padding: 5px;
+    background-color: rgb(247, 178, 229);
+    border-radius: 50%;
+}
+.blue{
+    padding: 5px;
+    background-color: rgb(114, 96, 216);
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+.right-side {
+    background-color: white;
+    width: 60%;
+}
+.user-client{
+    display: flex;
+    justify-content: space-between;
+  align-items: flex-end;
+  margin: 10px 25px 50px 40px;
+}
+.another p{
+    color: #424941;
+font-size: 17.52px; 
+}
+.another h1{
+    color: #424941;
+font-size: 24.5px;
+font-weight: 500; 
+}
+.logos2 img{
+    width: 23px;
+    margin: 0 15px;
+}
+.chats{
+    display: flex;
+    align-items: center;
+    margin: 10px 0 20px 40px;
+}
+.chats-user{
+    position: relative;
+    margin: 0 0 0 10px;
+}
+.chats-user span{
+    position: absolute;
+    bottom: 67px;
+    color: #424941;
+font-size: 11.739px; 
+}
+.chats-user p {
+    padding: 22px;
+  background-color: aliceblue;
+  border-radius: 0px 27px 27px 27px; 
+  background: #EBF3E9; 
+}
+.chats-2{
+    display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 50px 40px 0px 0px;
+}
+.chats-user-2{
+    margin: 0px 10px 0 0px;
+    position: relative;
+}
+.chats-user-2 {
+    border-radius: 27px 0px 27px 27px;
+  background: #EBF3E9;
+  padding: 18px 61px;
+  display: flex;
+  align-items: center;
+}
+.chats-user-2 span{
+    position: absolute;
+    bottom: 67px;
+    color: #424941;
+    right: 2px;
+font-size: 11.739px; 
+}
+.chats-user-2 .tick {
+    position: absolute;
+  right: 20px;
+  bottom: 0px;
+  width: 22px;
+  padding: 7px;
+  background-color:#D3E8D2;;
+  top: 48px;
+  border-radius: 50%;
+}
+.fa-solid {
+    font-size: 23px;
+  margin: 0 10px;
+  color: #424941;
+}
+.user2{
+    border-radius: 50%;
+}
+.center{
+    border-radius: 10px;
+    border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  padding: 50px 0px;
+}
+.center button{
+    padding: 9px 36px;
+    border-radius: 10px;
+    border:none;
+}
+.last-section div{
+    display: flex;
+    align-items: center;
+    margin: 10px 0px 20px 40px;
+    position: relative;
+}
+.last-section div input{
+    width: 700px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 31.661px;
+background: #E1ECE1; 
+
+}
+.last-section{
+    height: 236px;
+  display: flex;
+  align-items: end;
+}
+.attach{
+    position: absolute;
+    right: 98px;
+
+}
+.emoji{
+    position: absolute;
+    right: 61px;
+}
+.mic{
+    position: absolute;
+    right: 3px;
+  padding: 10px;
+  background-color: #AED1AC;;
+  border-radius: 20px;
+}
